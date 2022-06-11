@@ -1,0 +1,17 @@
+DIR_NONE = 0
+DIR_UP = 1
+DIR_DOWN = 2
+DIR_LEFT = 3
+DIR_RIGHT = 4
+
+MAZE_SIZE_X = 20
+MAZE_SIZE_Y = 15
+
+TILE_BLOCK = 0  # 墙，不能通过的tile
+TILE_BLANK = 1  # 路，能通过的tile
+TILE_ITEM = 2  # 物品，就是“豆子”
+TILE_POWERUP = 3  # 力量，player吃了之后能够吃掉ghost
+MAP_COLUME_COUNT = 20
+MAP_ROW_COUNT = 15
+TILE_WIDTH = 40
+TILE_HEIGHT = 40
